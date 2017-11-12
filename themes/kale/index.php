@@ -5,17 +5,19 @@
 * @package kale
 */
 ?>
-<?php get_header(); ?>
+
+<?php echo "this site is under construction and coming soon..."; ?>
+<?php //get_header(); ?>
 
 
-<div class="blog-feed">
+<!--<div class="blog-feed">-->
 <!-- Two Columns -->
-<div class="row two-columns">
-    <?php get_template_part('parts/feed'); ?>
-    <?php get_sidebar(); ?>
-</div>
+<!--<div class="row two-columns">-->
+    <?php //get_template_part('parts/feed'); ?>
+    <?php //get_sidebar(); ?>
+<!--</div>-->
 <!-- /Two Columns -->
-<hr />
-</div>
+<!--<hr />-->
+<!--</div>-->
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
