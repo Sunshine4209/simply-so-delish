@@ -1,0 +1,37 @@
+/*** Post styles ***/
+#post { margin-top:25px; overflow:hidden; margin-bottom:10px; }
+#post img { border:1px solid #E5E5E5; padding:4px; }
+.post-thumb { margin-bottom:20px; }
+.about-author-text { width:525px; overflow:hidden; }
+.post-tags { margin-bottom:25px; clear:both; }
+.post-tags a { background:url(images/tag.png) no-repeat left; padding-left:21px; padding-right:10px; height:18px; margin:4px 10px 4px 0; padding-top:5px; font-size:11px !important; color:#777; text-shadow: 1px 1px 1px #FFF; display:inline-block; -moz-border-radius: 2px; -webkit-border-radius:2px; border-radius: 2px;}
+
+/* Post content */
+.post-content { width:100%; }
+.post-content.full { width:960px; }
+.post-content p { line-height:20px; margin-bottom:20px; }
+.post-content h1 { font-size:28px; margin-bottom:14px; }
+.post-content h2 { font-size:24px; margin-bottom:14px; }
+.post-content h3 { font-size:20px; margin-bottom:14px; }
+.post-content h4 { font-size:18px; margin-bottom:14px; }
+.post-content h5 { font-size:16px; margin-bottom:14px; }
+.post-content h6 { font-size:14px; margin-bottom:14px; }
+.post-content hr { border:0; background-color: #DDD; height:1px; margin-bottom:18px; color:#DDD; }
+.post-content ul { padding-left: 30px; margin-bottom:20px; font-size:13px; line-height:20px; }
+.post-content ul li{ background:url(images/ul-dot.png) no-repeat; padding-left:16px; margin-bottom:10px; list-style: none; color: grey;}
+.post-content ol { padding-left:46px; margin-bottom:20px; font-size:13px; line-height:20px; }
+.post-content ol li { list-style-type: decimal; margin-bottom:6px; }
+.post-content .alignright { float:right; margin:0 0 4px 10px; }
+.post-content .alignleft { float:left; margin:0 10px 4px 0; }
+.post-content blockquote { background:url(images/quote.png) no-repeat; padding-left:32px; padding-top:3px; margin-left:25px; color:#777; font-style:italic; }
+.wp-caption, .gallery-caption  { margin-bottom:20px; text-align: center; }
+p.wp-caption-text { margin-bottom:2px; }
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+/*** Ingredients ***/
+.note-wrapper { float:right; margin:0 0 10px 10px; width:251px; }
+.note-top { background:url(images/note-top.png) no-repeat; width:251px; height:42px; }
+.note-content { background:url(images/note-bg.png) repeat-y; padding-bottom:1px; }
+.note-content ul { padding-left:32px; margin:0 !important; }
+.note-content li { background:url(images/note-dot.png) no-repeat top left !important; padding:1px 2px 0 14px !important; margin:0 !important; line-height:25px; color:#444; }
+.note-bottom { background:url(images/note-bottom.png) no-repeat; width:251px; height:28px; }

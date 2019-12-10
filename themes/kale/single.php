@@ -16,6 +16,8 @@ $kale_posts_tags_show = kale_get_option('kale_posts_tags_show');
 $kale_posts_sidebar = kale_get_option('kale_posts_sidebar');
 $kale_posts_featured_image_show = kale_get_option('kale_posts_featured_image_show');
 $kale_sidebar_size = kale_get_option('kale_sidebar_size');
+$kale_posts_posts_nav_show = kale_get_option('kale_posts_posts_nav_show');
+
 ?>
 <?php while ( have_posts() ) : the_post(); ?>
 <!-- Two Columns -->
@@ -30,36 +32,53 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
     
         <!-- Post Content -->
         <div id="post-<?php the_ID(); ?>" <?php post_class('entry entry-post'); ?>>
-            
+
+            <?php $title = get_the_title(); ?>
+            <?php if($title == '') { ?>
+                <h1 class="entry-title"><?php esc_html_e('Post ID: ', 'kale'); the_ID(); ?></h1>
+            <?php } else { ?>
+                <h1 class="entry-title"><?php the_title(); ?></h1>
+            <?php } ?>
+
             <div class="entry-header">
 				<?php if($kale_posts_meta_show == 1 && $kale_posts_date_show == 1) { ?>
                 <div class="entry-meta">
                     <div class="entry-date date updated"><?php the_date(); ?></div>
+                    <?php if($kale_posts_category_show == 1 && has_category()) { ?>
+                        <div class="entry-category" style="margin-top: -10px;">
+                            <span><?php esc_html_e('Categories: ', 'kale'); ?></span>
+                            <?php the_category(', '); ?>
+                        </div>
+                    <?php } ?>
                 </div>
 				<?php } ?>
+
+                <?php echo do_shortcode("[wppr_avg_rating]"); ?>
+
 				<div class="clearfix"></div>
             </div>
             
-            <?php $title = get_the_title(); ?>
-            <?php if($title == '') { ?>
-            <h1 class="entry-title"><?php esc_html_e('Post ID: ', 'kale'); the_ID(); ?></h1>
-            <?php } else { ?>
-            <h1 class="entry-title"><?php the_title(); ?></h1>
-            <?php } ?>
-            
+
+
             <?php 
             if($kale_posts_featured_image_show == 1) { 
                 if(has_post_thumbnail()) { ?>
                 <div class="entry-thumb"><?php the_post_thumbnail( 'full', array( 'alt' => get_the_title(), 'class'=>'img-responsive' ) ); ?></div><?php } 
             } ?>
-            
+
+
+            <?php $title = get_the_title(); ?>
+            <?php if($title == '') { ?>
+                <h1 class="entry-title post-entry-title"><?php esc_html_e('Post ID: ', 'kale'); the_ID(); ?></h1>
+            <?php } else { ?>
+                <h1 class="entry-title post-entry-title"><?php the_title(); ?></h1>
+            <?php } ?>
+
             <div class="single-content"><?php the_content(); wp_link_pages(); ?></div>
             
             <?php if(  ( $kale_posts_meta_show == 1 && ($kale_posts_category_show == 1 || $kale_posts_tags_show == 1 || $kale_posts_author_show == 1) )  ) { ?>
             <div class="entry-footer">
                 <div class="entry-meta">
-                    <?php if($kale_posts_author_show == 1) { ?><div class="entry-author"><span><?php esc_html_e('Author: ', 'kale'); ?></span><span class="vcard author author_name"><span class="fn"><?php the_author_posts_link(); ?></span></span></div><?php } ?>
-					<?php if($kale_posts_category_show == 1 && has_category()) { ?><div class="entry-category"><span><?php esc_html_e('Filed Under: ', 'kale'); ?></span><?php the_category(', '); ?></div><?php } ?>
                     <?php if($kale_posts_tags_show == 1 && has_tag()) { ?><div class="entry-tags"><span><?php esc_html_e('Tags: ', 'kale'); ?></span><?php the_tags('',', '); ?></div><?php } ?>
                 </div>
             </div>
@@ -68,12 +87,13 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
         </div>
         <!-- /Post Content -->
         
+        <?php if($kale_posts_posts_nav_show == 1) { ?>
         <hr />
-        
         <div class="pagination-post">
             <div class="previous_post"><?php previous_post_link('%link','%title',true); ?></div>
             <div class="next_post"><?php next_post_link('%link','%title',true); ?></div>
         </div>
+        <?php } ?>
         
         <!-- Post Comments -->
         <?php if ( comments_open() ) : ?>

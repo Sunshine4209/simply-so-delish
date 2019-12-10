@@ -1,0 +1,628 @@
+# Copyright (C) 2019 jquery-pin-it-button-for-images
+# This file is distributed under the same license as the jquery-pin-it-button-for-images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: jquery-pin-it-button-for-images\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Language-Team: Marcin Skrzypiec\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/includes/JPIBFI_License_Nag.php:99
+msgid "You have invalid or expired license key for jQuery Pin It Button for Images Pro. Please go to the <a href=\"%s\">License tab</a> to correct this issue or <a href=\"%s\">click here</a> if you renewed the license."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:49, includes/admin/JPIBFI_Welcome_Screen.php:51
+msgid "Welcome to jQuery Pin It Button for Images"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:77
+msgid "Welcome to %s&nbsp;%s"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:81
+msgid "Thank you for updating to the latest version! %s helps your readers share your images using Pinterest."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:91, includes/admin/jpibfi-admin.php:79, includes/admin/settings/jpibfi-visual-settings.php:39
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:93
+msgid "The most important part of the plugin is the settings panel."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:103
+msgid "Finding the settings panel"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:105
+msgid "You can find the plugin's settings panel in the <b>Settings</b> submenu under the name <b>%s</b>. There you can find all the settings the plugin allows you to adjust. All settings are divided into several tabs so you can find what you're looking for easily."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:119
+msgid "Settings link"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:127
+msgid "Everything at hand"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:129
+msgid "You can find all the links mentioned below in the settings panel."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:135
+msgid "Settings tabs"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:145, includes/admin/settings/jpibfi-selection-settings.php:51
+msgid "Selection settings"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:147
+msgid "In this tab you choose which images should feature the \"Pin it\" button. You can choose images with specific classes or set up a minimum image resolution to prevent the button from showing up on small images. You can also choose on which pages the \"Pin it\" button should show up."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:149
+msgid "<a href=\"%s\" class=\"button button-primary\">Go to Selection settings</a>"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:155
+msgid "Visual settings"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:157
+msgid "This tab helps you configure how the \"Pin it\" button looks like and where it appears. If you want to use your own \"Pin it\" icon or make the button show up in the upper right corner of the image, this is the tab you are looking for."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:159
+msgid "<a href=\"%s\" class=\"button button-primary\">Go to Visual settings</a>"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:169, includes/admin/settings/jpibfi-advanced-settings.php:23
+msgid "Advanced settings"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:171
+msgid "In most cases you won't have to visit this tab ever. It features a few advanced settings used in most cases to resolve conflicts with other plugins."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:173
+msgid "<a href=\"%s\" class=\"button button-primary\">Go to Advanced settings</a>"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:179, includes/admin/settings/jpibfi-import-export-settings.php:175
+msgid "Import/Export"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:181
+msgid "If you would like to quickly copy the plugin's settings to another instance of WordPress, that's the place for you. You can download a file with your current settings and import it to another instance easily."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:183
+msgid "<a href=\"%s\" class=\"button button-primary\">Go to Import/Export</a>"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:197
+msgid "Finding help"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:199
+msgid "If you're stuck and can't get the plugin to work the way you want it to, get help!"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:209, includes/admin/jpibfi-admin.php:211
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:211
+msgid "If you are having difficulties with some aspects of the plugin, the first place to look for help is <a href=\"%s\" target=\"_blank\">the documentation</a> of the plugin. Chances are you will find what you are looking for there."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:217, includes/admin/jpibfi-admin.php:219
+msgid "Support"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:221
+msgid "Users of the free version of the plugin can find support <a href=\"%s\" target=\"_blank\">in the support forum</a>. When posting to the support forum, make sure you include the URL of your website."
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:233
+msgid "Next steps"
+msgstr ""
+
+#: includes/admin/JPIBFI_Welcome_Screen.php:237
+msgid "In most cases, the plugin is ready to go without any configuration. If there is anything you would like to change, go to the <a href=\"%s\">Settings panel</a>."
+msgstr ""
+
+#: includes/admin/jpibfi-admin.php:255, includes/admin/settings/jpibfi-settings-base.php:59
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/jpibfi-admin.php:267
+msgid "Saving changes ..."
+msgstr ""
+
+#: includes/admin/jpibfi-admin.php:327
+msgid "jQuery Pin It Button For Images Options"
+msgstr ""
+
+#: includes/admin/jpibfi-admin.php:333
+msgid "If you cannot see the settings page, <a href=\"%s\" target=\"_blank\">click here</a>"
+msgstr ""
+
+#: includes/admin/jpibfi-admin.php:403
+msgid "<strong>jQuery Pin It Button for Images Pro</strong> is available. <a class=\"button button-primary\" href=\"%1$s\" target=\"_blank\">Check it out &rarr;</a>"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:25
+msgid "Filters"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:31
+msgid "You can enabled or disable if the plugin should use a certain filter and change the priority setting. Read more about filters <a href=\"%s\" target=\"_blank\">here</a>. By default all 3 filters are active with the priority of 10."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:37
+msgid "%name% with priority of %priority%"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:53
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:89
+msgid "the_content priority"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:113
+msgid "the_excerpt priority"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:137
+msgid "post_thumbnail_html priority"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:149
+msgid "Scroll selector"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:151
+msgid "Additional scroll selector for \"Always\" and \"Always on touch devices\" Show Button settings."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:163
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:165
+msgid "Additional CSS that prevents the \"Pin it\" button from rendering incorrectly on some themes."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:175
+msgid "Support Srcset Attribute"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:177, includes/admin/settings/jpibfi-visual-settings.php:399, includes/admin/settings/jpibfi-visual-settings.php:415
+msgid "Active"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-advanced-settings.php:179
+msgid "When checked, the plugin will try to find the best quality image to pin using the srcset attribute generated by WordPress. Useful when you want people to pin bigger version of the image than you embed on the page."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:63
+msgid "The file did not upload properly. Please try again."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:79
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:93
+msgid "The path is not a file, please try again."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:147
+msgid "Export"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:151
+msgid "Download Export File"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:155
+msgid "Import"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-import-export-settings.php:157
+msgid "Import Settings"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:27
+msgid "jQuery Pin It Button for Images Settings"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:53
+msgid "Minimum image resolution"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:55
+msgid "Use this settings to hide the \"Pin it\" button on small images (e.g. social media icons)."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:57
+msgid "* - screen that is less than 768 pixels wide"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:59
+msgid "For small screens* the \"Pin it\" button will show up if the image is at least %height% pixels high and %width% pixels wide."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:61
+msgid "Otherwise, the \"Pin it\" button will show up if the image is at least %height% pixels high and %width% pixels wide."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:65
+msgid "On which pages the \"Pin it\" button should be shown"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:105
+msgid "Selection"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:127
+msgid "Image selector"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:129
+msgid "jQuery selector for all the images that should have the \"Pin it\" button. Set the value to %s if you want the \"Pin it\" button to appear only on images in content or %s to appear on all images on site (including sidebar, header and footer). If you know a thing or two about jQuery, you might use your own selector. %sClick here%s to read about jQuery selectors."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:153
+msgid "Disabled classes"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:155
+msgid "Images with these CSS classes won't show the \"Pin it\" button. Please separate multiple classes with semicolons. Spaces are not accepted."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:167
+msgid "Enabled classes"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:169
+msgid "Only images with these CSS classes will show the \"Pin it\" button. Please separate multiple classes with semicolons. If this field is empty, images with any (besides disabled ones) classes will show the Pin It button."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:191, includes/admin/settings/jpibfi-selection-settings.php:213, includes/admin/settings/jpibfi-visual-settings.php:375
+msgid "Height"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:193
+msgid "Minimum image height"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:201, includes/admin/settings/jpibfi-selection-settings.php:223, includes/admin/settings/jpibfi-visual-settings.php:385
+msgid "Width"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:203
+msgid "Minimum image width"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:215
+msgid "Minimum image height for mobile"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:225
+msgid "Minimum image width for mobile"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:235
+msgid "Show on"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:247
+msgid "Disable on"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-selection-settings.php:293
+msgid "Disable plugin on this post"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-settings-base.php:63
+msgid "This feature is available in <a target=\"_blank\" href=\"%s\">the PRO version</a>."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:23
+msgid "\"Pin it\" button margins"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:25
+msgid "Margins are used to adjust the position of the \"Pin it\" button, but not all margins are used on all button positions. Here is an example. If you're using the \"%s\" position, the button's position will be affected only by top and left margins. Bottom and right margins affect \"%s\" position, etc. The \"%s\" position does not use any margins at all."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:27, includes/admin/settings/jpibfi-visual-settings.php:187
+msgid "Top left"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:29, includes/admin/settings/jpibfi-visual-settings.php:193
+msgid "Bottom right"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:31, includes/admin/settings/jpibfi-visual-settings.php:195
+msgid "Middle"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:35
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:37
+msgid "Mode"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:41
+msgid "Click the button to choose an image from your WordPress media library. Height and width should fill automatically."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:43
+msgid "No image to preview"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:45
+msgid "Upload an image using media library"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:47
+msgid "Select your custom \"Pin It\" button"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:49
+msgid "Use as \"Pin It\" button"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:53
+msgid "Available icons come from the following icon packs: %s and %s."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:75
+msgid "Visual"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:97
+msgid "Show button"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:101
+msgid "On hover"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:103
+msgid "Always on touch devices"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:105
+msgid "Always"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:109
+msgid "When the \"Pin it\" button should be visible."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:135
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:137
+msgid "Button bottom margin"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:147
+msgid "Top"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:149
+msgid "Button top margin"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:159
+msgid "Left"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:161
+msgid "Button left margin"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:171
+msgid "Right"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:173
+msgid "Button right margin"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:183
+msgid "\"Pin it\" button position"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:189
+msgid "Top right"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:191
+msgid "Bottom left"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:199
+msgid "Where the \"Pin it\" button should appear on the image."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:211
+msgid "Description source"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:215
+msgid "Post title"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:217
+msgid "Post description (excerpt)"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:219
+msgid "Image title attribute"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:221
+msgid "Site title (Settings->General)"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:223
+msgid "Image description"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:225
+msgid "Image caption"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:227
+msgid "Image alt attribute"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:229
+msgid "data-pin-description (Pinterest's custom attribute)"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:233
+msgid "From where the Pinterest message should be taken. Check which sources should be considered and prioritize them by dragging and dropping. The description will come from the top source that has data. Please note that \"Image description\" and \"Image caption\" work properly only for images that were added to your Media Library."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:245
+msgid "Transparency"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:247
+msgid "Choose transparency (between %.02f and %.02f)"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:265
+msgid "Pin image"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:269
+msgid "Old default"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:271
+msgid "Default"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:273
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:287
+msgid "Button"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:291
+msgid "Square"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:293
+msgid "Rounded square"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:295
+msgid "Round"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:297
+msgid "Rectangle"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:299
+msgid "Rounded rectangle"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:313
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:317
+msgid "Circle"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:319
+msgid "Plain"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:321
+msgid "Thumbtack"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:323
+msgid "Thumbtack #2"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:325
+msgid "Classic"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:339
+msgid "Size"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:343
+msgid "Small"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:345
+msgid "Normal"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:347
+msgid "Large"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:361
+msgid "URL address of the image"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:377
+msgid "Custom image height"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:387
+msgid "Custom image width"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:397
+msgid "Scale Pin Image"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:401
+msgid "When checked, the \"Pin it\" button will scale down in size for smaller screens, ensuring best user experience. Left unchecked, the \"Pin it\" button will show up in full size no matter the screen size."
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:413
+msgid "Pin linked URL"
+msgstr ""
+
+#: includes/admin/settings/jpibfi-visual-settings.php:417
+msgid "When checked, if the image links to another URL in your domain, that URL goes to Pinterest instead of the current one."
+msgstr ""
+
+#: jquery-pin-it-button-for-images.php:89
+msgid "You have two versions of jQuery Pin It Button for Images installed. Please deactivate and remove one of them."
+msgstr ""

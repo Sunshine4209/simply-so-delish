@@ -40,8 +40,14 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
             <?php } ?>
             
             <div class="attachment-image"><?php echo wp_get_attachment_image( get_the_ID(), 'full' ); ?></div>
-            <div class="attachment-content"><?php the_content(); wp_link_pages(); ?></div>
             
+            <?php $attachment_meta = kale_get_attachment( get_the_ID() ); if ($attachment_meta['caption'] != '') { ?>
+            <div class="attachment-caption"><?php echo esc_html($attachment_meta['caption']); ?></div>
+            <?php } ?>
+            
+            <?php if(get_the_content() != '') { ?>
+            <div class="attachment-content"><?php the_content(); wp_link_pages(); ?></div>
+            <?php } ?>
         
         </div>
         <!-- /Post Content -->

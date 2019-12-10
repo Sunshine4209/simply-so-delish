@@ -1,9 +1,9 @@
 === Kale ===
 
 Author: LyraThemes www.lyrathemes.com
-Requires at least: WordPress 4.7+
-Tested up to: WordPress 4.7+
-Version: 1.3
+Requires at least: WordPress 4.5+
+Tested up to: WordPress 4.9.8
+Version: 2.4.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: one-column, two-columns, three-columns, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-images,footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, food-and-drink
@@ -53,7 +53,7 @@ The theme uses the following third-party resources:
 
 * HTML5 Shiv v3.7.0 (c) Alexander Farkas. MIT/GPL2. https://github.com/aFarkas/html5shiv
 * Respond.js v1.3.0 (c) Scott Jehl. MIT/GPLv2. https://github.com/scottjehl/Respond
-* Bootstrap v3.3.5 (c) Twitter Inc. MIT. http://getbootstrap.com
+* Bootstrap v3.3.7 (c) Twitter Inc. MIT. http://getbootstrap.com
 * bootstrap-select v1.5.4 (c) caseyjhol, t0xicCode. MIT. http://silviomoreto.github.io/bootstrap-select/
 * Owl Carousel v1.3.2. MIT. http://owlgraphic.com/owlcarousel/
 * Kirki v. GPLv2 or later

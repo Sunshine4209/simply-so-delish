@@ -1,0 +1,499 @@
+# Copyright (C) 2013 jQuery Pin It Button For Images
+# This file is distributed under the same license as the jQuery Pin It Button For Images package.
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery Pin It Button For Images 1.14\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/jquery-pin-it-button-for-"
+"images\n"
+"POT-Creation-Date: 2013-10-29 07:52:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-12-03 15:02+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: jquery-pin-it-button-for-images.php:230
+#: jquery-pin-it-button-for-images.php:240
+#: jquery-pin-it-button-for-images.php:455
+msgid "Settings"
+msgstr "Ajustes"
+
+#: jquery-pin-it-button-for-images.php:259
+msgid ""
+"Disable \"Pin it\" button for this post (works only on single pages/posts)"
+msgstr ""
+"Desactivar el botón \"Fíjelo\" para este post (funciona sólo en páginas/"
+"mensajes individuales)"
+
+#: jquery-pin-it-button-for-images.php:468
+msgid "jQuery Pin It Button For Images Options"
+msgstr "Botón Fíjelo de jQuery para Opciones de Imágenes"
+
+#: jquery-pin-it-button-for-images.php:477
+msgid "Selection Settings"
+msgstr "Ajustes de Selección"
+
+#: jquery-pin-it-button-for-images.php:478
+msgid "Visual Settings"
+msgstr "Ajustes Visuales"
+
+#: jquery-pin-it-button-for-images.php:479
+#: jquery-pin-it-button-for-images.php:1193
+msgid "Advanced Settings"
+msgstr "Ajustes Avanzados"
+
+#: jquery-pin-it-button-for-images.php:484
+msgid ""
+"If you would like to support development of the plugin, please %sdonate%s."
+msgstr "Si usted desea apoyar el desarrollo del plugin, por favor %sdone%s."
+
+#: jquery-pin-it-button-for-images.php:485
+msgid ""
+"If you experience issues with the plugin, check out the %ssupport forum%s."
+msgstr ""
+"Si experimenta problemas con el plugin, eche un vistazo al %sforo de soporte"
+"%s."
+
+#: jquery-pin-it-button-for-images.php:486
+msgid "To help promote the plugin, %sleave a review%s."
+msgstr "Para ayudar a promover el plugin, %sdeje un comentario%s."
+
+#: jquery-pin-it-button-for-images.php:487
+msgid ""
+"If you have any suggestions for improvements, %suse the feedback form%s."
+msgstr ""
+"Si usted tiene alguna sugerencia de mejora, %sutilice el formulario de "
+"comentarios%s."
+
+#: jquery-pin-it-button-for-images.php:552
+msgid "Selection"
+msgstr "Selección"
+
+#: jquery-pin-it-button-for-images.php:560
+msgid "Image selector"
+msgstr "Selector de imagen"
+
+#: jquery-pin-it-button-for-images.php:565
+msgid ""
+"jQuery selector for all the images that should have the \"Pin it\" button. "
+"Set the value to %s if you want the \"Pin it\" button to appear only on "
+"images in content or %s to appear on all images on site (including sidebar, "
+"header and footer). If you know a thing or two about jQuery, you might use "
+"your own selector. %sClick here%s to read about jQuery selectors."
+msgstr ""
+"El selector jQuery para todas las imágenes que deben tener el botón \"Fíjelo"
+"\". Establecer el valor a %s si usted quiere que  el botón \"Fíjelo\" "
+"aparezca solamente en las imágenes en el contenido o %s que aparezca en "
+"todas las imágenes en el sitio (incluyendo sidebar, header y footer). Si "
+"usted conoce una cosa o dos acerca de jQuery, usted puede usar su propio "
+"selector. %sHaga clic aquí%s para leer acerca de los selectores de jQuery."
+
+#: jquery-pin-it-button-for-images.php:576
+#: jquery-pin-it-button-for-images.php:760
+msgid "Disabled classes"
+msgstr "Deshabilitar clases"
+
+#: jquery-pin-it-button-for-images.php:581
+msgid ""
+"Pictures with these CSS classes won't show the \"Pin it\" button. Please "
+"separate multiple classes with semicolons. Spaces are not accepted."
+msgstr ""
+"Las imágenes con estas clases CSS no mostrarán el botón \"Fíjelo\". Por "
+"favor separe clases múltiples con puntos y comas. Los espacios no están "
+"permitidos."
+
+#: jquery-pin-it-button-for-images.php:587
+#: jquery-pin-it-button-for-images.php:762
+msgid "Enabled classes"
+msgstr "Clases habilitadas"
+
+#: jquery-pin-it-button-for-images.php:592
+msgid ""
+"Only pictures with these CSS classes will show the \"Pin it\" button. Please "
+"separate multiple classes with semicolons. If this field is empty, images "
+"with any (besides disabled ones) classes will show the Pin It button."
+msgstr ""
+"Solamente las imágenes con estas clases CSS se mostrarán en el botón \"Fíjelo"
+"\". Por favor separe clases múltiples con puntos y comas. Si este campo está "
+"vacío, las imágenes con cualquier clase (excepto las deshabilitadas) "
+"mostrarán el botón Fíjelo."
+
+#: jquery-pin-it-button-for-images.php:598
+msgid "On which pages the \"Pin it\" button should be shown"
+msgstr "En cuáles páginas el botón \"Fíjelo\" debería mostrarse"
+
+#: jquery-pin-it-button-for-images.php:603
+msgid "Check on which pages you want the Pinterest button to show up."
+msgstr ""
+"Chequee en cuáles páginas usted desea que el botón \"Fíjelo\" se muestre."
+
+#: jquery-pin-it-button-for-images.php:609
+msgid "Minimum resolution that should trigger the \"Pin it\" button to show up"
+msgstr ""
+"La resolución mínima que debería provocar que el botón \"Fíjelo\" se muestre"
+
+#: jquery-pin-it-button-for-images.php:614
+msgid ""
+"If you'd like the \"Pin it\" button to not show up on small images (e.g. "
+"social media icons), just set the appropriate values above. The default "
+"values cause the \"Pin it\" button to show on every eligible image."
+msgstr ""
+"Si usted desea que el botón \"Fíjelo\" no se muestre en imágenes pequeñas (e."
+"j. iconos de social media), solamente asigne los valores apropiados "
+"anteriores. Los valores por defecto causan al botón \"Fíjelo\" que se "
+"muestre en cualquier imagen elegible."
+
+#: jquery-pin-it-button-for-images.php:628
+msgid "Which images can be pinned"
+msgstr "Cuáles imágenes pueden ser fijadas"
+
+#: jquery-pin-it-button-for-images.php:649
+#: jquery-pin-it-button-for-images.php:678
+msgid "No classes added."
+msgstr "No se añadieron clases."
+
+#: jquery-pin-it-button-for-images.php:658
+#: jquery-pin-it-button-for-images.php:687
+msgid "Class name"
+msgstr "Nombre de la clase"
+
+#: jquery-pin-it-button-for-images.php:660
+#: jquery-pin-it-button-for-images.php:689
+msgid "Add to list"
+msgstr "Adicionar a la lista"
+
+#: jquery-pin-it-button-for-images.php:710
+msgid "Home page"
+msgstr "Página de Inicio"
+
+#: jquery-pin-it-button-for-images.php:712
+msgid "Pages"
+msgstr "Páginas"
+
+#: jquery-pin-it-button-for-images.php:714
+msgid "Single posts"
+msgstr "Post simples"
+
+#: jquery-pin-it-button-for-images.php:716
+msgid "Category and archive pages"
+msgstr "Páginas de categorías y archivos"
+
+#: jquery-pin-it-button-for-images.php:718
+msgid "Blog pages"
+msgstr "Páginas de blog"
+
+#: jquery-pin-it-button-for-images.php:732
+#: jquery-pin-it-button-for-images.php:1041
+msgid "Height"
+msgstr "Largo"
+
+#: jquery-pin-it-button-for-images.php:739
+#: jquery-pin-it-button-for-images.php:1048
+msgid "Width"
+msgstr "Ancho"
+
+#: jquery-pin-it-button-for-images.php:767
+msgid ""
+"the given value doesn't meet the requirements. Please correct it and try "
+"again."
+msgstr ""
+"los valores dados no cumplen los requerimientos. Por favor arréglelos y "
+"pruebe nuevamente."
+
+#: jquery-pin-it-button-for-images.php:777
+msgid "Minimum image height"
+msgstr "Largo mínimo de imagen"
+
+#: jquery-pin-it-button-for-images.php:779
+msgid "Minimum image width"
+msgstr "Ancho mínimo de imagen"
+
+#: jquery-pin-it-button-for-images.php:784
+#: jquery-pin-it-button-for-images.php:1146
+msgid "value must be a number greater or equal to %d."
+msgstr "el valor debe ser un número mayor o igual a %d."
+
+#: jquery-pin-it-button-for-images.php:850
+msgid "Visual"
+msgstr "Visual"
+
+#: jquery-pin-it-button-for-images.php:858
+msgid "Mode"
+msgstr "Modo"
+
+#: jquery-pin-it-button-for-images.php:863
+msgid ""
+"Static mode adds a layer on the top of the image that restricts image "
+"download, but works on websites that protect images download. Dynamic mode "
+"doesn't add that layer and allows image download. If you're experiencing "
+"issues with static mode, try using dynamic mode."
+msgstr ""
+"El modo estático adiciona una capa en la cima de la imagen que restringe el "
+"download de la imagen, pero funciona en sitios web que protegen el download "
+"de las imágenes. El modo dinámico no adiciona esa capa y permite el download "
+"de imágenes. Si usted está experimentando problemas con el modo estático, "
+"trate de usar el dinámico."
+
+#: jquery-pin-it-button-for-images.php:869
+msgid "Description source"
+msgstr "Origen de la descripción"
+
+#: jquery-pin-it-button-for-images.php:874
+msgid ""
+"From where the Pinterest message should be taken. Please note that \"Image "
+"description\" works properly only for images that were added to your Media "
+"Library."
+msgstr ""
+"De dónde el mensaje Fíjelo debería ser tomado. Por favor note que "
+"\"Descripción de Imagen\" funciona correctamente solamente para imágenes que "
+"fueron adicionadas a su Librería de Media. "
+
+#: jquery-pin-it-button-for-images.php:880
+msgid "Linked page"
+msgstr "Página enlazada"
+
+#: jquery-pin-it-button-for-images.php:885
+msgid ""
+"When checked, the link on Pinterest will always point to the individual page "
+"with the image and title of this individual page will be used if you've "
+"selected Title as the description source, even when the image was pinned on "
+"an archive page, category page or homepage. If false, the link will point to "
+"the URL the user is currently on."
+msgstr ""
+"Cuando está chequeada, el enlace a Fíjelo aparecerá apuntando a la página "
+"individual con la imagen y el título de esta página individual será usado si "
+"usted ha seleccionado Título como el origen de descripción, aún cuando la "
+"imagen fue fijada en una página archivada, una página de categoría o una "
+"página de inicio. Si está en falso, el enlace apuntará a la URL en la que el "
+"usuario está."
+
+#: jquery-pin-it-button-for-images.php:891
+msgid "Transparency value"
+msgstr "Valor de transparencia"
+
+#: jquery-pin-it-button-for-images.php:896
+msgid "This setting sets the transparency of the image."
+msgstr "Este ajuste asigna la transparencia de la imagen."
+
+#: jquery-pin-it-button-for-images.php:902
+msgid "Custom \"Pin It\" button"
+msgstr "Botón \"Fíjelo\" personalizado."
+
+#: jquery-pin-it-button-for-images.php:907
+msgid ""
+"Check the <b>Use custom image</b> checkbox, specify image's URL, height and "
+"width to use your own Pinterest button design. You can just upload an image "
+"using Wordpress media library if you wish."
+msgstr ""
+"Seleccione el checkbox <b>Usar imagen personalizada</b>, especifique la URL "
+"de la imagen, el largo y el ancho para usar su propio diseño de botón "
+"\"Fíjelo\". Usted puede subir la imagen usando la librería de media de "
+"Wordpress si usted lo desea."
+
+#: jquery-pin-it-button-for-images.php:913
+msgid "\"Pin it\" button position"
+msgstr "Posición del botón \"Fíjelo\"."
+
+#: jquery-pin-it-button-for-images.php:918
+msgid "Where the \"Pin it\" button should appear on the image."
+msgstr "Cuándo el botón \"Fíjelo\" debería aparecer en la imagen."
+
+#: jquery-pin-it-button-for-images.php:924
+msgid "\"Pin it\" button margins"
+msgstr "Márgenes del botón \"Fíjelo\""
+
+#: jquery-pin-it-button-for-images.php:929
+msgid ""
+"Margins are used to adjust the position of the \"Pin it\" button, but not "
+"all margins are used on all button positions. Here is an example. If you're "
+"using the \"%s\" position, the button's position will be affected only by "
+"top and left margins. Bottom and right margins affect \"%s\" position, etc. "
+"The \"%s\" position does not use any margins at all."
+msgstr ""
+"Los márgenes son usados para ajustar la posición del botón \"Fíjelo\", pero "
+"no todos los márgenes son usados para todas las posiciones de botones. Aquí "
+"va un ejemplo. Si usted está usando la posición \"%s\", la posición del "
+"botón será afectada solamente por los márgenes top y left. Los márgenes "
+"bottom y right afectan la posición \"%s\", etc. La posición no utiliza "
+"ningún margen. "
+
+#: jquery-pin-it-button-for-images.php:930
+#: jquery-pin-it-button-for-images.php:1071
+msgid "Top left"
+msgstr "Arriba a la izquierda"
+
+#: jquery-pin-it-button-for-images.php:931
+#: jquery-pin-it-button-for-images.php:1074
+msgid "Bottom right"
+msgstr "Abajo a la derecha"
+
+#: jquery-pin-it-button-for-images.php:932
+#: jquery-pin-it-button-for-images.php:1075
+msgid "Middle"
+msgstr "Centro"
+
+#: jquery-pin-it-button-for-images.php:939
+msgid "Retina friendly"
+msgstr "Amigable a la retina"
+
+#: jquery-pin-it-button-for-images.php:944
+msgid ""
+"Please note that checking this option will result in rendering the \"Pin it"
+"\" button half of its normal size (if you use a 80x60 image, the button will "
+"be 40x30). When uploading a custom \"Pin it\" button (the default one is too "
+"small), please make sure both width and height are even numbers (i.e. "
+"divisible by two) when using this option."
+msgstr ""
+"Por favor note que seleccionando esta opción resultará en renderizar el "
+"botón \"Fíjelo\" a la mitad de su tamaño normal (si usted utiliza una imagen "
+"de 80x60, el botón será de 40x30). Cuando se sube un botón \"Fíjelo\" "
+"personalizado (el de por defecto es muy pequeño), por favor asegúrese que "
+"ambos el ancho y el largo son números pares (e.j divisible por dos) cuando "
+"se usa esta opción."
+
+#: jquery-pin-it-button-for-images.php:959
+msgid "How it should look like"
+msgstr "Cómo debería lucir"
+
+#: jquery-pin-it-button-for-images.php:969
+msgid "Static"
+msgstr "Estático"
+
+#: jquery-pin-it-button-for-images.php:970
+msgid "Dynamic"
+msgstr "Dinámico"
+
+#: jquery-pin-it-button-for-images.php:985
+msgid "Page title"
+msgstr "Título de la página"
+
+#: jquery-pin-it-button-for-images.php:986
+msgid "Page description"
+msgstr "Descripción de la página"
+
+#: jquery-pin-it-button-for-images.php:987
+msgid "Picture title or (if title not available) alt attribute"
+msgstr ""
+"Título de la imagen o (si el título no está disponible) del atributo alt"
+
+#: jquery-pin-it-button-for-images.php:988
+msgid "Site title (Settings->General)"
+msgstr "Título del sitio (Ajustes->General)"
+
+#: jquery-pin-it-button-for-images.php:989
+msgid "Image description"
+msgstr "Descripción de la imagen"
+
+#: jquery-pin-it-button-for-images.php:1002
+msgid "Always link to individual post page"
+msgstr "Siempre enlazar a la página del post individual"
+
+#: jquery-pin-it-button-for-images.php:1012
+msgid "Choose transparency (between %.02f and %.02f)"
+msgstr "Escoger transparencia (entre %.02f and %.02f)"
+
+#: jquery-pin-it-button-for-images.php:1030
+msgid "Use custom image"
+msgstr "Usar imagen personalizada"
+
+#: jquery-pin-it-button-for-images.php:1033
+msgid "Upload an image using media library"
+msgstr "Subir una imagen usando librería de media"
+
+#: jquery-pin-it-button-for-images.php:1036
+msgid "URL address of the image"
+msgstr "Dirección URL de la imagen"
+
+#: jquery-pin-it-button-for-images.php:1055
+msgid "Custom Pin It button preview"
+msgstr "Vista previa del botón Fíjelo personalizado"
+
+#: jquery-pin-it-button-for-images.php:1059
+msgid "Refresh preview"
+msgstr "Vista previa de refrescado"
+
+#: jquery-pin-it-button-for-images.php:1072
+msgid "Top right"
+msgstr "Arriba a la derecha"
+
+#: jquery-pin-it-button-for-images.php:1073
+msgid "Bottom left"
+msgstr "Abajo a la izquierda"
+
+#: jquery-pin-it-button-for-images.php:1095
+msgid "Top"
+msgstr "Arriba"
+
+#: jquery-pin-it-button-for-images.php:1097
+msgid "Bottom"
+msgstr "Abajo"
+
+#: jquery-pin-it-button-for-images.php:1099
+msgid "Left"
+msgstr "Izquierda"
+
+#: jquery-pin-it-button-for-images.php:1101
+msgid "Right"
+msgstr "Derecha"
+
+#: jquery-pin-it-button-for-images.php:1114
+msgid "Optimize for high pixel density displays"
+msgstr "Optimizar para mostrados de densidad de pixeles altos"
+
+#: jquery-pin-it-button-for-images.php:1130
+msgid "Transparency value must be a number between %.02d and %.02f."
+msgstr "El valor de transparencia debe ser un número entre  %.02d y %.02f."
+
+#: jquery-pin-it-button-for-images.php:1138
+msgid "Custom image height"
+msgstr "Largo personalizado de la imagen "
+
+#: jquery-pin-it-button-for-images.php:1140
+msgid "Custom image width"
+msgstr "Ancho personalizado de la imagen "
+
+#: jquery-pin-it-button-for-images.php:1201
+msgid "Debug"
+msgstr "Debuguear"
+
+#: jquery-pin-it-button-for-images.php:1206
+msgid ""
+"Use debug mode only if you are experiencing some issues with the plugin and "
+"you are reporting them to the developer of the plugin"
+msgstr ""
+"Usar modo debug solamente si usted está experimentando algunos problemas con "
+"el plugin y esta reportándolos al desarrollador del plugin"
+
+#: jquery-pin-it-button-for-images.php:1219
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: jquery-pin-it-button-for-images.php:1231
+msgid "Enable debug mode"
+msgstr "Habilitar modo debug"
+
+#. Plugin Name of the plugin/theme
+msgid "jQuery Pin It Button For Images"
+msgstr "Botón \"Fíjelo\" de jQuery Para Imágenes"
+
+#. Plugin URI of the plugin/theme
+msgid "http://mrsztuczkens.me/jpibfi/"
+msgstr "http://mrsztuczkens.me/jpibfi/"
+
+#. Description of the plugin/theme
+msgid ""
+"Highlights images on hover and adds a \"Pin It\" button over them for easy "
+"pinning."
+msgstr ""
+"Resalta imágenes en hover y adiciona un botón \"Fíjelo\" sobre ellas para el "
+"fijado fácil."
+
+#. Author of the plugin/theme
+msgid "Marcin Skrzypiec"
+msgstr "Marcin Skrzypiec"
+
+#. Author URI of the plugin/theme
+msgid "http://mrsztuczkens.me/"
+msgstr "http://mrsztuczkens.me/"

@@ -7,8 +7,11 @@
 ?>
 <!-- Frontpage Banner / Slider -->
 
-<?php $kale_frontpage_banner = kale_get_option('kale_frontpage_banner'); 
-$kale_example_content = kale_get_option('kale_example_content'); ?>
+<?php 
+$kale_frontpage_banner = kale_get_option('kale_frontpage_banner'); 
+$kale_example_content = kale_get_option('kale_example_content'); 
+$kale_frontpage_banner_link_images = kale_get_option('kale_frontpage_banner_link_images');
+?>
 
 <?php 
 
@@ -19,7 +22,6 @@ $force_banner = false;
 if ($kale_frontpage_banner == 'Posts') { 
     $kale_frontpage_posts_slider_category = kale_get_option('kale_frontpage_posts_slider_category');
     $kale_frontpage_posts_slider_number = kale_get_option('kale_frontpage_posts_slider_number');
-	$kale_frontpage_banner_link_images = kale_get_option('kale_frontpage_banner_link_images');
     $args = array( 'posts_per_page' => $kale_frontpage_posts_slider_number, 'category' => $kale_frontpage_posts_slider_category );
     $kale_posts_slider = get_posts( $args ); 
     $n = count($kale_posts_slider);
@@ -65,18 +67,26 @@ if($kale_frontpage_banner == 'Banner' || $force_banner) {
     if($header_image != '') { 
 ?>
     <div class="frontpage-banner">
-        <img src="<?php echo $header_image ?>" alt="<?php echo esc_attr($kale_banner_heading); ?>" />
-        <div class="caption">
-            <?php if($kale_banner_url != '' && $kale_banner_heading != '') { ?>
-            <h2><a href="<?php echo esc_url($kale_banner_url); ?>"><?php echo esc_html($kale_banner_heading); ?></a></h2>
-            <?php } ?>
-            <?php if($kale_banner_url == '' && $kale_banner_heading != '') { ?>
-            <h2><?php echo esc_html($kale_banner_heading); ?></h2>
-            <?php } ?>
-            <?php if($kale_banner_description != '') { ?>
-            <p class="read-more"><?php echo esc_html($kale_banner_description); ?></p>
-            <?php } ?>
-        </div>
+        
+        <?php if($kale_frontpage_banner_link_images == 0) { ?>
+            <img src="<?php echo $header_image ?>" alt="<?php echo esc_attr($kale_banner_heading); ?>" />
+            <div class="caption">
+                <?php if($kale_banner_url != '' && $kale_banner_heading != '') { ?>
+                <h2><a href="<?php echo esc_url($kale_banner_url); ?>"><?php echo esc_html($kale_banner_heading); ?></a></h2>
+                <?php } ?>
+                <?php if($kale_banner_url == '' && $kale_banner_heading != '') { ?>
+                <h2><?php echo esc_html($kale_banner_heading); ?></h2>
+                <?php } ?>
+                <?php if($kale_banner_description != '') { ?>
+                <p class="read-more"><?php echo esc_html($kale_banner_description); ?></p>
+                <?php } ?>
+            </div>
+        <?php } else { ?>
+            <?php if($kale_banner_url != '') { ?><a href="<?php echo esc_url($kale_banner_url); ?>"><?php } ?>
+            <img src="<?php echo $header_image ?>" alt="<?php echo esc_attr($kale_banner_heading); ?>" />
+            <?php if($kale_banner_url != '') { ?></a><?php } ?>
+        <?php } ?>
+        
     </div>
 <?php 
     }
