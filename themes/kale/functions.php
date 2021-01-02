@@ -58,9 +58,9 @@ function kale_setup() {
     add_theme_support( 'custom-header', $args );
 
     add_theme_support( 'post-thumbnails' );
-    set_post_thumbnail_size( 760, 400, true );
+    set_post_thumbnail_size( 760, 600, true );
     add_image_size( 'kale-slider', 1200, 550, true );
-    add_image_size( 'kale-thumbnail', 760, 400, true );
+    add_image_size( 'kale-thumbnail', 760, 600, true );
 
     add_post_type_support('page', 'excerpt');
 

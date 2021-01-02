@@ -15,7 +15,7 @@ $kale_defaults['kale_nav_search_icon']                  = 1;
 $kale_defaults['kale_example_content']					= 1;
 $kale_defaults['kale_dropdown_node_enable']             = 0;
 
-$kale_defaults['kale_image_logo_show']                  = false;
+$kale_defaults['kale_image_logo_show']                  = true;
 $kale_defaults['kale_text_logo']                        = get_bloginfo('name');
 
 $kale_defaults['kale_banner_heading']                   = get_bloginfo('name');

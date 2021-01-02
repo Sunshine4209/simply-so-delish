@@ -67,12 +67,12 @@ $kale_posts_posts_nav_show = kale_get_option('kale_posts_posts_nav_show');
             } ?>
 
 
-            <?php $title = get_the_title(); ?>
-            <?php if($title == '') { ?>
-                <h1 class="entry-title post-entry-title"><?php esc_html_e('Post ID: ', 'kale'); the_ID(); ?></h1>
-            <?php } else { ?>
-                <h1 class="entry-title post-entry-title"><?php the_title(); ?></h1>
-            <?php } ?>
+<!--            --><?php //$title = get_the_title(); ?>
+<!--            --><?php //if($title == '') { ?>
+<!--                <h1 class="entry-title post-entry-title">--><?php //esc_html_e('Post ID: ', 'kale'); the_ID(); ?><!--</h1>-->
+<!--            --><?php //} else { ?>
+<!--                <h1 class="entry-title post-entry-title">--><?php //the_title(); ?><!--</h1>-->
+<!--            --><?php //} ?>
 
             <div class="single-content"><?php the_content(); wp_link_pages(); ?></div>
             

@@ -53,22 +53,11 @@
             <!-- Header Row 2 -->
             <div class="header-row-2">
                 <div class="logo">
-                    <?php 
-                    if(kale_get_option('kale_image_logo_show') == 1) { 
-                        if ( function_exists( 'the_custom_logo' ) ) the_custom_logo(); 
-                    } 
-                    else { 
-                        $kale_text_logo = kale_get_option('kale_text_logo');
-                        if($kale_text_logo == '') $kale_text_logo = get_bloginfo('name');
-                    ?>
-					
-						<?php if ( is_front_page() ) { ?>
-						<h1 class="header-logo-text"><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_html($kale_text_logo) ?></a></h1>
-						<?php } else { ?>
-						<div class="header-logo-text"><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_html($kale_text_logo) ?></a></div>
-						<?php } ?>
-					
-                    <?php } ?>
+                    <h1 class="header-logo-text">
+                        <a href="http://local.simplysodelish.com/">
+                          <img width="700" height="163" src="http://local.simplysodelish.com/wp-content/themes/kale/customize/images/logo.png" class="custom-logo" alt="SIMPLY SO DELISH" />
+                        </a>
+                    </h1>
                 </div>
                 <?php if( display_header_text() ) { ?>
                 <div class="tagline"><?php $tagline = get_bloginfo('description'); if($tagline != '') { ?><p><?php echo esc_html($tagline); ?></p><?php } ?></div>

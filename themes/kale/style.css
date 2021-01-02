@@ -20,7 +20,7 @@ Tags: one-column, two-columns, three-columns, right-sidebar, grid-layout, flexib
 /* BASE
 ------------------------------------------------------------------------*/
 
-body{font-family: 'Lato', sans-serif;color:#545454;font-size:14px}
+body{font-family: 'source sans pro', sans-serif;color:#545454;font-size:16px; font-weight: 300;}
 body.custom-background .main-wrapper{margin:0 auto;background-color:#ffffff;box-shadow:0 0 50px rgba(0,0,0,0.06)}
 
 img{max-width:100%;height:auto;}
@@ -37,7 +37,7 @@ a, a:hover, a:visited, a:active, a:focus{color:#000000;}
 /*body.custom-background .main-wrapper{margin:0 auto;background-color:#ffffff;box-shadow:0 0 50px rgba(0,0,0,0.06)}*/
 
 /* --- Headings ---*/
-h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif;color:#000;font-weight:400;text-transform:uppercase;}
+h1,h2,h3,h4,h5,h6{font-family: 'source sans pro', sans-serif;color:#000;font-weight:300;text-transform:uppercase;}
 h1{font-size:16px;}
 h2{font-size:16px;}
 h3{font-size:14px;}
@@ -182,7 +182,7 @@ img.aligncenter { max-width:100%; height:auto;}
 
 .header{line-height:20px;padding:20px 0 0}
 
-.header-row-2{margin-bottom:40px}
+.header-row-2{margin-bottom:20px}
 
 .header-row-3{margin-bottom:45px}
 
@@ -734,6 +734,10 @@ p.wp-caption-text { margin-bottom:2px; }
 .note-content ul { padding-left:32px; margin:0 !important; }
 .note-content li { background:url(images/note-dot.png) no-repeat top left !important; padding:1px 2px 0 14px !important; margin:0 !important; line-height:25px; color:#444; }
 .note-bottom { background:url(images/note-bottom.png) no-repeat; width:251px; height:28px; }
+
+
+/* ------- EXTRA -------------*/
+.entry-post .entry-thumb { margin-bottom: 25px; width: 97%;height: 95%;margin-left: 0px;}
 
 /* ----------------------------------------------------------------------- */
 /* ------------------------ END RECIPE BOX STYLE CSS ------------------------- */
